@@ -39,16 +39,16 @@
 import nispat
 
 processing_dir=     '/home/mrstats/triloo/normmod_workspace/test_normative_modeling'
-python_path=        '/home/mrstats/triloo//software/anaconda3/bin/python'
-normative_path=     '~/software/anaconda3/envs/norm_mod/lib/python3.7site-packages/nispat-0.12-py3.7.egg/nispat/normative.py'
+python_path=        '/home/mrstats/triloo/software/anaconda3/envs/norm_mod/bin/python'
+normative_path=     '/home/mrstats/triloo/software/anaconda3/envs/norm_mod/lib/python3.7/site-packages/nispat-0.12-py3.7.egg/nispat/normative.py'
 job_name=           'normmod_test_script'
 covfile_path=       processing_dir+'/covariates_HC.txt'
 respfile_path=      processing_dir+'/features_HC.txt'
 testcovfile_path=   processing_dir+'/covariates_allpatients.txt'
 testrespfile_path=  processing_dir+'/features_allpatients.txt'
 batch_size=         50 
-memory=             '4gb'
-duration=           '03:00:00'
+memory=             '8gb'
+duration=           '04:00:00'
 
 
 
