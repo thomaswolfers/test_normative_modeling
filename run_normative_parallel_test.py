@@ -29,7 +29,6 @@
         * log_path           -> Pathfor saving log files
         * binary             -> If True uses binary format for response file
                                 otherwise it is text
-    written by (primarily) T Wolfers, (adapted) SM Kia
 """
 
 
@@ -40,7 +39,7 @@ import nispat
 
 processing_dir=     '/home/mrstats/triloo/normmod_workspace/test_normative_modeling'
 python_path=        '/home/mrstats/triloo//software/anaconda3/bin/python'
-normative_path=     '~/software/anaconda3/envs/norm_mod/lib/python3.7site-packages/nispat-0.12-py3.7.egg/nispat/normative.py'
+normative_path=     '~/software/anaconda3/envs/norm_mod/lib/python3.7site-packages/nips at-0.12-py3.7.egg/nispat/normative.py'
 job_name=           'normmod_test_script'
 covfile_path=       processing_dir+'/covariates_HC.txt'
 respfile_path=      processing_dir+'/features_HC.txt'
